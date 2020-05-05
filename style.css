@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+html {
+  background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('https://previews.123rf.com/images/pravdinal/pravdinal1811/pravdinal181100015/123291939-set-of-sweet-childish-doodles-black-and-white-vector-clipart-.jpg');
+  background-size: cover;
+  background-color: rgba(255,255,255, 0.4);
+}
+
+h1 { 
+  font-family: 'Caveat Brush', cursive;
+  text-align: center;
+  font-size: 800%;
+  margin-top: -24px;
+  color: white;
+  text-shadow: -10px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
+}
+
+button {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 2em;
+  display: block;
+  text-align: center;
+  margin: auto auto;
+  margin-top: -3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  background-color: rgb(243, 255, 30);
+  color: black;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  border-color: rgb(147, 147, 147);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+    background-color: rgb(227, 237, 28);
+}
+
+#main_container {
+    display: block;
+    margin: auto auto;
+    width: 35%; 
+    height: 32em; 
+    border-style: solid; 
+    border-color: black;
+    margin-top: 1em;
+}
+
+#sketchbox {
+    display: grid;
+    height: 100%;
+}
+
+.tile {
+    width: 100%; 
+    padding-top: 100%; 
+    background-color: white;
+}
