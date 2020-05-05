@@ -28,7 +28,7 @@ function resetBox(e) {
     makeGrid(getNumber);
 }
 
-makeGrid(4);
+makeGrid(16);
 
 
 
